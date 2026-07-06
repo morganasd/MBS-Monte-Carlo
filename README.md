@@ -493,7 +493,8 @@ The net effect is that the lender receives more coupons, over a longer horizon, 
 
 ### Sensitivity Analysis
 
-<img width="1835" height="937" alt="image" src="https://github.com/user-attachments/assets/9ec901c1-5804-4a04-9c1d-4a91b6c0754c" />
+<img width="1862" height="695" alt="image" src="https://github.com/user-attachments/assets/3928d529-ada2-4561-a32d-336e8b431bed" />
+
 
 
 The left panel holds burnout at zero and varies seasoning. It is clear that at Sea = 0 (a brand-new mortgage), the logistic curve sits far to the right. Therefore, you require a very large rate incentive before CPR picks up meaningfully. As seasoning rises to 1.0, the curve shifts left, becoming responsive to rate incentives at progressively smaller rate gaps. All curves converge at the same ceiling (~30% CPR) for large enough incentives. The inflection point of the S-curve is what moves: seasoning effectively shifts the borrower's "readiness to refinance."
