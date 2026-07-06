@@ -477,7 +477,9 @@ This construction introduces path dependency, which is what distinguishes part (
 
 ### MBS Values
 
-> **Figure F3 — Part (f): MBS Tranche Prices** (Binary prepayment (part c) vs Logistic CPR (part f)), price in £ per £100:
+<img width="1835" height="937" alt="image" src="https://github.com/user-attachments/assets/e954843f-e324-4e36-9341-01ce2dbdddc4" />
+
+
 >
 > | Tranche | Part (c) binary | Part (f) logistic CPR |
 > |:---|:---:|:---:|
@@ -491,7 +493,8 @@ The net effect is that the lender receives more coupons, over a longer horizon, 
 
 ### Sensitivity Analysis
 
-> **Figure F1 — Part (f): Logistic CPR Model** — Conditional Prepayment Rate as a function of incentive and seasoning (left panel: CPR vs incentive at different Seasoning levels, Burnout = 0; right panel: CPR vs incentive at different Burnout levels, Seasoning = 1.0).
+<img width="1835" height="937" alt="image" src="https://github.com/user-attachments/assets/9ec901c1-5804-4a04-9c1d-4a91b6c0754c" />
+
 
 The left panel holds burnout at zero and varies seasoning. It is clear that at Sea = 0 (a brand-new mortgage), the logistic curve sits far to the right. Therefore, you require a very large rate incentive before CPR picks up meaningfully. As seasoning rises to 1.0, the curve shifts left, becoming responsive to rate incentives at progressively smaller rate gaps. All curves converge at the same ceiling (~30% CPR) for large enough incentives. The inflection point of the S-curve is what moves: seasoning effectively shifts the borrower's "readiness to refinance."
 
@@ -513,7 +516,10 @@ Schwartz, E. & Torous, W., 1989. Prepayment and the Valuation of Mortgage-Backed
 
 **(d)** Sample paths plotted for Ho-Lee and BDT trees using the first 200 simulations.
 
-> **Figure (Appendix d):** Sample short-rate paths — Ho-Lee Model (mean path rising from 3.48% to ~6.13% over 10 years) and BDT Model (mean path rising from 3.48% to ~6.33% over 10 years, with right-skewed dispersion).
+<img width="1862" height="1126" alt="image" src="https://github.com/user-attachments/assets/2dae3a12-1241-43c2-90a8-51a75a35ecf5" />
+
+<img width="1829" height="1113" alt="image" src="https://github.com/user-attachments/assets/0c646f36-f670-476c-a1ba-9157275ceca9" />
+
 
 **(e)** Convergence of MC with increasing N.
 
