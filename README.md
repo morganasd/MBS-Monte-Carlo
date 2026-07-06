@@ -288,7 +288,10 @@ For this question, we used the Ho-Lee and BDT trees calculated in part A. To cre
 
 Although both models found a similar mean interest rate, they have significantly different distributions, as shown below. The Ho-Lee model has a normal distribution, with a tighter range and higher density around the mean. This is because the Ho-Lee adds a fixed shock at each step, therefore the rate-spread is bounded and symmetric. The BDT on the other hand, is skewed rightwards, this is because BDT adds shocks to the log rate, so the rate-spread space grows asymmetrically through compounding. Overall, the BDT is lognormal and does not allow for negative rates, unlike the Ho-Lee model. The BDT model also has a larger range than the Ho-Lee model and lower density around the mean. Both models have relatively unrealistic interest rates at the tails, with the Ho-Lee having a rate of -3.5%, and the BDT having a rate of 55%, however the mass at these regions is minimal on the histogram, this is because the probability of taking 20 consecutive up or down movements is very small. The difference between the mean rates, of 6.13% for Ho-Lee and 6.33% for BDT can be explained by the BDT having more mass on higher rates than Ho-Lee and the Ho-Lee having some mass in the negative rates. Furthermore, the BDT being log normal leads to the mean always being above the median. Since both simulations are discrete and not continuous, they show distinctive spikes rather than a smooth distribution.
 
-> **Figure (d):** Histograms of short rates at year 10 — Ho-Lee Model (Normal / Additive), Mean = 6.13%; BDT Model (Lognormal / Multiplicative), Mean = 6.33%.
+<img width="1637" height="984" alt="image" src="https://github.com/user-attachments/assets/5d649689-4c78-4a64-b301-f30b37d0cce9" />
+
+<img width="1615" height="964" alt="image" src="https://github.com/user-attachments/assets/2f6a5057-b8c8-49da-a159-f666d414abe5" />
+
 
 ## (e) Valuing the Mortgage with MC
 
